@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color:rgb(119, 192, 226) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+
+
+#svg{
+    background-color:white ;
+    box-shadow: rgb(63, 108, 255) 10px 5px 3px;
+}
+
+
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+    }
+  
+   .axis path,
+   .axis line {
+   fill: none;
+   stroke: grey;
+   stroke-width: 1;
+   shape-rendering: crispEdges;
+   } 
+
+
+#tooltip{
+    visibility: hidden;
+    background-color: rgb(199, 219, 255);
+    color: rgb(0, 132, 255);
+    border-radius: 5px;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 7px;
+    z-index: 3;
+    font-size: .7rem;
+}
+
+
+
+
+
+#cir:hover{
+    fill : rgb(84, 255, 218);
+    cursor: pointer;
+}
